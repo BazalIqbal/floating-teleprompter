@@ -1,0 +1,6 @@
+{
+  "name": "prompter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Native Android app (Kotlin). This file only exists because EAS Build runs npm install; the app lives in android/."
+}

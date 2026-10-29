@@ -1,0 +1,50 @@
+# ---------- Android / Gradle ----------
+.gradle/
+build/
+*/build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+output-metadata.json
+
+# Local SDK path and machine-specific config (never commit)
+local.properties
+
+# ---------- IDEs ----------
+.idea/
+*.iml
+.vscode/
+*.swp
+.fleet/
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
+
+# ---------- Kotlin ----------
+.kotlin/
+
+# ---------- Node (EAS Build only needs package.json) ----------
+node_modules/
+npm-debug.log*
+yarn-error.log
+.expo/
+
+# ---------- Secrets: never commit (this repo may become public) ----------
+*.jks
+*.keystore
+!debug.keystore.example
+keystore.properties
+credentials.json
+credentials/
+google-services.json
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+secrets.properties

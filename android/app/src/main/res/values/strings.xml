@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Prompter</string>
+    <string name="notif_channel_name">Prompter overlay</string>
+    <string name="notif_title">Prompter is showing your script</string>
+    <string name="notif_text">Tap Close to remove the overlay.</string>
+    <string name="notif_action_toggle">Pause / Resume</string>
+    <string name="notif_action_close">Close</string>
+    <string name="notif_action_unlock">Unlock</string>
+    <string name="notif_title_locked">Prompter is locked</string>
+    <string name="notif_text_locked">Touches go to the camera. Tap Unlock to use the panel again.</string>
+    <string name="remote_service_label">Prompter remote keys</string>
+    <string name="remote_service_description">Lets the volume keys and a Bluetooth clicker pause, resume and move the Prompter script while your camera app is open. It only reads key presses, only while the script overlay is showing, and never reads what is on screen.</string>
+</resources>
